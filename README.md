@@ -27,7 +27,7 @@ bun install @taep96/squircle-path
 ```tsx
 import { squirclePath } from "@taep96/squircle-path";
 
-const squircle = squirclePath({ width: 256, height: 256, squarness: 0.5 });
+const squircle = squirclePath({ width: 256, height: 256, squareness: 0.5 });
 
 ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
 
@@ -44,8 +44,8 @@ const squircle = squirclePath({ width: 256, height: 256, squarness: 0.5 });
 
 ## Options
 
-| Name      | Type    | Default | Description                                                                        |
-| --------- | ------- | ------- | ---------------------------------------------------------------------------------- |
-| width     | number  |         | Width of the squircle                                                              |
-| height    | number  |         | Height of the squircle                                                             |
-| squarness | number? | 0.3     | Squarness of the squircle. 0 is a circle, 1 is a square, 0.5 is a perfect squircle |
+| Name       | Type    | Default | Description                                                                        |
+| ---------- | ------- | ------- | ---------------------------------------------------------------------------------- |
+| width      | number  |         | Width of the squircle                                                              |
+| height     | number  |         | Height of the squircle                                                             |
+| squareness | number? | 0.3     | Squareness of the squircle. 0 is a circle, 1 is a square, 0.5 is a perfect squircle |
